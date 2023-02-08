@@ -8,6 +8,6 @@ public class HomeController {
     
     @GetMapping("/viragok")
     public String home() {
-        return "Hello from Azure App Service szija bigyijo!";
+        return "Hello from Azure App Service szija Bigyo!";
     }
 }
