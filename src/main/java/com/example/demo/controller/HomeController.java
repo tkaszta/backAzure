@@ -18,10 +18,10 @@ public class HomeController {
         this.flowerRepository = flowerRepository;
     }
 
-//    @PostMapping("/viragok")
-//    public Flower getFlower(@RequestBody Flower flower) {
-//        return flowerRepository.save(flower);
-//    }
+    @PostMapping("/viragok")
+    public Flower getFlower(@RequestBody Flower flower) {
+        return flowerRepository.save(flower);
+    }
 
     @GetMapping("/viragok")
     public List<Flower> home() {
