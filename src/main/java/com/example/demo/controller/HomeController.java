@@ -23,7 +23,7 @@ public class HomeController {
         return flowerRepository.save(flower);
     }
 
-    @GetMapping("/viragok")
+    @GetMapping("/api/viragok")
     public List<Flower> home() {
         return flowerRepository.findAll();
     }
